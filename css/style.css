@@ -6,23 +6,21 @@
   }
 
   body {
-    background-image: url('../css/_6ba3ace4-be70-4556-afd9-031594303ff7.jpeg');
-    background-size: cover; 
-    background-position: center; 
-    height: 100vh;
-    position: relative;
+   
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #7b9971;
   }
   
   header{  
     height: 10vh;
     align-items: center;
     display: flex;
-    justify-content: space-between;
     color: black;;
-    
+    background-color: #34502b;
+    margin: 0 auto;
+    justify-content: space-between;
   }
 
 
@@ -32,8 +30,11 @@
   }
 
   #display{
-    font-size: 40px;
-    margin-top: 24px;
+  
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+   
   }
 
   main{
@@ -66,7 +67,7 @@
     width: 90vw;
     padding:10px;
     background-color: white;
-    box-shadow: 0 0 7px #999;
+    box-shadow: 0 0 7px #40251B;
     
 
   }
