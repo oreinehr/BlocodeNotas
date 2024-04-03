@@ -129,7 +129,7 @@ const listNotes = () => {
 
         btnDelete.addEventListener("click", () => deleteNote(note.id));
   }
-
+    
 const deleteNote = (noteId) => {
     let notesList = loadNotes();
     notesList = notesList.filter(note => note.id !== noteId);
