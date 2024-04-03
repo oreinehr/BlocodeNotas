@@ -1,32 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin:0;
     padding:0;
   }
-  
-.bg{
-  background-color: #9ecdf3;
-}
 
-  header{
-    border-bottom: 1px solid #1b85dc;
-    height: 10vh;
-    align-items: center;
-    display:flex;
-    justify-content: space-between;
-    background-color: #0056B3;
-    box-shadow: 0 0 7px #0a4677;
-
+  body {
+    background-image: url('/_6ba3ace4-be70-4556-afd9-031594303ff7.jfif');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
   
+  header{  
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: black;;
+    
+  }
+
+
   #logo img{
     height: 8vh;
     margin-top: 7px;
   }
 
   #display{
-    color: white;
     font-size: 40px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-top: 24px;
   }
 
@@ -39,24 +45,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
   }
   
   .card-body{
-    box-shadow: 0 0 7px #2087db;
+    box-shadow: 0 0 7px black;
+    
+
   }
 
   .card a{
     text-decoration: none;
+
   }
   
   #modal-view{
-    border:1px solid #1b85dc;
+    border:1px solid black;
     position: absolute;
     display:none;
     width: 90vw;
     padding:10px;
     background-color: white;
-    box-shadow: 0 0 7px #2087db;
+    box-shadow: 0 0 7px #999;
+    
 
   }
   
@@ -65,13 +76,13 @@
   }
   
   #modal{
-    border:1px solid #1b85dc;
+    border:1px solid #40251B;
     position: absolute;
     padding:2vh 2vw;
     display:none;
     width: 90vw;
-    box-shadow: 0 0 7px #2087db;
-    background-color: #e6f2fd; 
+    box-shadow: 0 0 7px #40251B;
+    background-color: white solid; opacity: 0.9; 
   }
 
   #controls-note{
@@ -80,5 +91,7 @@
   }
 
   .form-control{
-    box-shadow: 0 0 7px #2087db;
+    box-shadow: 0 0 7px #40251B;
   }
+
+ 

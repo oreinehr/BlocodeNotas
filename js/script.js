@@ -38,7 +38,7 @@ btnSaveNote.addEventListener("click", (evt) =>{
     saveNote (data);
 })
 
-/-----------------------FUNÇÕES----------------------/
+
 
 const saveNote = (note) => {
     let notes = loadNotes();
@@ -99,7 +99,7 @@ const listNotes = () => {
       divCard.addEventListener("click",(evt) => {
         evt.preventDefault();
         showNote(item);
-    });
+  });
   });
 };
   const showNote = (note) => {
@@ -125,7 +125,7 @@ const listNotes = () => {
             document.querySelector('#input-id').value = note.id;
             document.querySelector('#input-title').value = note.title;
             document.querySelector('#input-content').value = note.content;
-          })
+    })
 
         btnDelete.addEventListener("click", () => deleteNote(note.id));
   }
